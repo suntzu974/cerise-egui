@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+eframe = { version = "0.27.2", features = ["default", "__screenshot"] }
+egui = "0.27.2"
+egui_extras = { version = "0.27.2", features = ["default", "image"] }
+env_logger = { version = "0.11.3", features = ["auto-color", "humantime"] }
