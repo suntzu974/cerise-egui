@@ -12,7 +12,7 @@ fn main() -> Result<(), eframe::Error> {
     };
 
     // Our application state:
-    let mut name = "Arthur".to_owned();
+    let mut name = "Jeannick".to_owned();
     let mut age = 42;
 
     eframe::run_simple_native("My egui App", options, move |ctx, _frame| {
